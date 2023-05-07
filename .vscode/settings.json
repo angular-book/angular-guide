@@ -1,0 +1,24 @@
+{
+    "editor.linkedEditing": true,
+    "explorer.openEditors.visible": 0,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "[markdown]": {
+        "editor.fontSize": 14,
+        "editor.lineHeight": 26,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 64,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.minimap.enabled": false
+    },
+    "editor.fontSize": 18
+}
