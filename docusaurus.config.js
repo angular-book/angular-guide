@@ -68,25 +68,25 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-   
-          {
-            type: "docSidebar",
-            sidebarId: "prereqs",
-            position: "left",
-            label: "Getting Ready",
-          },
+
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "prereqs",
+          //   position: "left",
+          //   label: "Getting Ready",
+          // },
           {
             type: "docSidebar",
             sidebarId: "angular101",
             position: "left",
-            label: "Angular 101",
-          },
-          {
-            type: "docSidebar",
-            sidebarId: "realWorld",
-            position: "left",
-            label: "Real World Angular",
+            label: "Getting Started with Angular",
           }
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "realWorld",
+          //   position: "left",
+          //   label: "Real World Angular",
+          // }
         ],
       },
       footer: {
