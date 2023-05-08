@@ -1,6 +1,7 @@
 ---
-title: ⚒️ Installing Angular CLI
+title: Installing Angular CLI
 sidebar_position: 2.5
+sidebar_class_name: sidebar-lab
 ---
 
 import EmbedVideo from "@site/src/components/VideoEmbed";

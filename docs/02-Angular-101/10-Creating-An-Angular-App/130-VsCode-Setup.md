@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3.2
-title: "⚒️ Opening the Project in VS Code and Configuring VS Code"
+title: "Opening the Project in VS Code and Configuring VS Code"
+sidebar_class_name: sidebar-lab
 ---
 import EmbedVideo from "@site/src/components/VideoEmbed";
 

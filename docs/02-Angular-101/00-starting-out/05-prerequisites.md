@@ -1,5 +1,6 @@
 ---
-title: 📘 Prerequisites
+title: Prerequisites
+sidebar_class_name: sidebar-details
 ---
 
 We are going to discuss the *technical* prerequistes here. What do you have to have installed on your machine in order to follow along with this tutorial. 

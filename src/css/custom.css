@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.sidebar-lab {
+  padding-left: 1rem;
+  font-size: .9rem;
+}
+
+.sidebar-lab>a::before {
+  content: "⚒️";
+}
+
+.sidebar-big>a::before {
+  content: "🌐"
+}
+
+.sidebar-details>a::before {
+  content: "🔎"
+}

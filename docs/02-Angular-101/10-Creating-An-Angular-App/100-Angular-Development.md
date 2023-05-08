@@ -1,6 +1,7 @@
 ---
 sidebar_position: 0
-title: 📘 Big Picture
+title: Big Picture
+sidebar_class_name: sidebar-big
 ---
 The *final result* of creating an Angular application is creating an HTML file with links to your compiled applications source code, CSS files, etc. These are *static* files, and they are placed on a web server so that your users can download and run your application.
 

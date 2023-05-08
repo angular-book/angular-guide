@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3.6
-title: "📗 Project File Structure"
+title: "Project File Structure"
+sidebar_class_name: sidebar-details
 ---
 
 # Angular Project File Structure

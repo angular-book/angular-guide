@@ -1,5 +1,6 @@
 ---
-title: ⚒️ Installing VS Code
+title: Installing VS Code
+sidebar_class_name: sidebar-lab
 ---
 
 Angular applications are made up of text source code files. Components, services, templates, css files, etc. You will write a *lot* of TypeScript code. 

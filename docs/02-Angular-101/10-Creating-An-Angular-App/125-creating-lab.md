@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3.1
-title: "⚒️ Creating the App"
+title: "Creating the App"
+sidebar_class_name: sidebar-lab
 ---
 
 import EmbedVideo from "@site/src/components/VideoEmbed";

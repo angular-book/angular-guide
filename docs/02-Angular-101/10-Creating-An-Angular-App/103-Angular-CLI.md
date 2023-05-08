@@ -1,6 +1,7 @@
 ---
-title: 📗 The Angular CLI
+title: The Angular CLI
 sidebar_position: 2
+sidebar_class_name: sidebar-details
 ---
 
 The Angular team ships a package called the Angular CLI (CLI here means "Command Line Interface").

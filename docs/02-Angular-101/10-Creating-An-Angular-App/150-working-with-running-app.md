@@ -1,5 +1,6 @@
 ---
-title: "⚒️ Working With Your App In the Development Environment"
+title: "Working With Your App In the Development Environment"
+sidebar_class_name: sidebar-lab
 ---
 
 

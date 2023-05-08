@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
-title: 📗 Creating an Angular App
+title: Creating an Angular App
+sidebar_class_name: sidebar-details
 ---
 
 

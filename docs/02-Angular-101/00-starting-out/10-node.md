@@ -1,5 +1,6 @@
 ---
-title: ⚒️ Installing Node and NPM
+title: Installing Node and NPM
+sidebar_class_name: sidebar-lab
 ---
 
 The end result of building an Angular application is that you have, at a mimimum, an HTML file, some CSS, and some JavaScript files that will be placed on a web server for your users to request. There is no particular server-side technology you need to host a built Angular application.
