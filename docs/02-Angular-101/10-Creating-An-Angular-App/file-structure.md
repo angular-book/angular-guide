@@ -176,6 +176,8 @@ The configuration object passed to the Component tells it that this component:
 
 Open that file (`./src/app/app.component.html) in Code. I'm not going to paste it here because it is *huge*. 
 
+In the next section, we'll work with this template to give you an experience of working in the development environment.
+
 What the heck is that?
 
 That is the *entirety* of what you are seeing when you go to http://localhost:4200 in your browser. It's the "canned" content placed there by the Angular team to let you know your app is up and running. It contains a bunch of style definitions, a bunch of HTML content. Almost *all* of it is not Angular specific at all. Depending on your past experience with CSS and HTML, you'd be able to figure out a lot of what is going on there.
