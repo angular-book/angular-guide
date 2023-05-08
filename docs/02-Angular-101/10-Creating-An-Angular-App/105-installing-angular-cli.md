@@ -15,8 +15,3 @@ npm i -g @angular/cli
 
 <EmbedVideo id="814286011" />
 
-:::note This is A Prototype
-In later sections, we will use an Nx Workspace as a way to manage our Angular
-application. It uses some of the features of the Angular CLI behind the scenes, so
-knowing a bit about it is helpful.
-:::
