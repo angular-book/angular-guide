@@ -2,6 +2,7 @@
 sidebar_position: 3.2
 title: "⚒️ Opening the Project in VS Code and Configuring VS Code"
 ---
+import EmbedVideo from "@site/src/components/VideoEmbed";
 
 In this lab we will open our new project in Visual Studio Code and configure our editor with some basic extensions and settings to make working with Angular easier and more efficient.
 
@@ -21,6 +22,8 @@ Don't forget the period after the `code` command. The period means "open code in
 
 Either way, when you open the project folder, you will be prompted by Visual Studio Code to install the "recommended extension" for the "Angular Language Service". Click "install" to install it.
 
+<EmbedVideo id="824763064" title="Opening Project and Installing ALS" />
+
 Visual Studio Code (hereafter, just "Code") *knew* to install this because the Angular CLI created a directory in our project called `.vscode`. In that directory, there is a file called `extensions.json` (as well as two other files we'll discuss later). If you look at the `./.vscode/extensions.json` file, it will look like this:
 
 ```json title="./.vscode/extensions.json"
@@ -32,6 +35,9 @@ Visual Studio Code (hereafter, just "Code") *knew* to install this because the A
 
 The published name for the Angular Language Service extension is `angular.ng-template`. 
 
+:::note If It Didn't Ask You To Install the Angular Language Service
+Software, am I right? Sometimes it is weird. If for some reason you *weren't* prompted to install the Angular Language Service, you can install it yourself. Click on the Extensions icon on the left of your screen (looks like some blocks) and search for "Angular Language Service". When it finds it, click install.
+:::
 ## Settings for Angular Apps
 
 Code is almost *infinitely* configurable. It is one of, if not the, most contributed to open source projects on Github. Developers are an opinionated lot. There are a few settings that I like to set in Code for almost any Angular project I work on. 
@@ -57,3 +63,6 @@ A brief explanation of each of these settings:
 - `files.autoSave`: This is big for Angular. As you'll see when we start our development server, Angular will "watch" our files for changes and automatically recompile and update our application for us. With this setting enabled, you'll be able to simply switch to your browser window after making a change, not needing to remember to save your files.
 
 There are a lot more settings. We'll discuss some of them later, especially about formatting code, etc. But for now, this will get us going.
+
+
+<EmbedVideo id="824766521" title="Adding Settings" />

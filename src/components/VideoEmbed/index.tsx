@@ -1,8 +1,10 @@
 import { CSSProperties } from "react";
 import React from "react";
 
+
 type EmbedItem = {
   id: string;
+  title?: string;
 };
 
 const videoDivStyles: CSSProperties = {
@@ -18,11 +20,18 @@ const aStyles: CSSProperties = {
   opacity: 0.8,
 };
 
-export default function EmbedVideo({ id }: EmbedItem) {
+const titleStyles: CSSProperties = {
+  fontSize: '1.1rem',
+  fontWeight: 'bolder'
+
+}
+
+export default function EmbedVideo({ id, title }: EmbedItem) {
   const fullUrl = `https://player.vimeo.com/video/${id}?h=e031fbcf01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`;
 
   return (
     <div style={videoDivStyles}>
+      <p style={titleStyles}>Review of Steps {title}</p>
       <iframe
         allow="autoplay;"
         allowFullScreen

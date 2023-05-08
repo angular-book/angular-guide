@@ -32,7 +32,7 @@ ng new guide --standalone --skip-tests
 The generation of the files is quick. You'll see those fly by on the screen. There there will be a *long* delay while it says it is `Installing packages (npm)`. One of the files created by new is the `package.json` file. After it generates your application, it runs `npm install` in the directory that reads the content of the `package.json` file and downloads each of the dependencies listed there to the project's `node_modules` folder. There are a *ton* of them.  (I edited the video to make it faster. Get a coffee.)
 :::
 
-<EmbedVideo id="814608298" />
+<EmbedVideo id="814608298" title="Creating an Angular App" />
 
 
 After it completes creating your application and installing dependencies, you can change directory into the new `guide` directory and list the contents.

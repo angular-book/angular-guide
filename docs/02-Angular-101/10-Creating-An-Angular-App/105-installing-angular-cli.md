@@ -13,5 +13,5 @@ We will install the Angular CLI globally. This means once the command installs s
 npm i -g @angular/cli
 ```
 
-<EmbedVideo id="814286011" />
+<EmbedVideo id="814286011" title="Installing Angular CLI" />
 
