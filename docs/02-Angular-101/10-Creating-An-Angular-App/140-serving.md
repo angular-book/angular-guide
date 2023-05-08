@@ -26,6 +26,8 @@ ng serve -o
 
 <EmbedVideo id="824781049" title="Serving your Application" />
 
+What you are seeing in the browser is the compiled application as it is *right now*. The Angular team puts a little bit of "welcome" content that we will replace in our next section. Remember, if you accidentally close your browser window, you can leave the development server running (`ng serve`) and just open your browser and navigate to http://localhost:4200 to see you app.
+
 ## The Dev Process
 
 While we are working on our Angular application, we will leave the `ng serve` process running. It is a *stateful compiler* and a *web server*. It will monitor our source code files for changes, recompile our application, and make it available through a simple web server at `http://localhost:4200`. You just leave this thing running while you are working on your application.
