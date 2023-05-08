@@ -1,7 +1,5 @@
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import clsx from "clsx";
 import React from "react";
 
 import styles from "./index.module.css";
@@ -31,7 +29,7 @@ export default function Home(): JSX.Element {
         <section className={styles.mainSection}>
           <h2>Becoming an Angular Developer</h2>
           <p>We are preparing this guide to help developers go through the stages of learning Angular. We start with a helpful guide to get you <i>ready</i> to start working in Angular, and then show you the basics of Angular, and then, when you are ready, "Real World Angular". </p>
-
+          <p>To learn how best to use this guide, start <a href='/using-this-guide'>Here</a></p>
         </section>
       </main>
     </Layout>

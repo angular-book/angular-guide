@@ -22,7 +22,7 @@ Don't forget the period after the `code` command. The period means "open code in
 
 Either way, when you open the project folder, you will be prompted by Visual Studio Code to install the "recommended extension" for the "Angular Language Service". Click "install" to install it.
 
-<EmbedVideo id="824763064" title="Opening Project and Installing ALS" />
+<EmbedVideo id="824763064" title="Opening Project and Installing Angular Language Service" />
 
 Visual Studio Code (hereafter, just "Code") *knew* to install this because the Angular CLI created a directory in our project called `.vscode`. In that directory, there is a file called `extensions.json` (as well as two other files we'll discuss later). If you look at the `./.vscode/extensions.json` file, it will look like this:
 
