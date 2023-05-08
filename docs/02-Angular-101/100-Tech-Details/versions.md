@@ -1,3 +1,7 @@
+---
+title: Angular Version History
+---
+
 ## Version History
 
 - Angular JS
@@ -27,4 +31,4 @@
 
 ## Support Lifetime
 
-[https://angular.io/guide/releases#support-policy-and-schedule]
+https://angular.io/guide/releases#support-policy-and-schedule
