@@ -3,10 +3,11 @@ sidebar_position: 3.5
 ---
 
 import EmbedVideo from "@site/src/components/VideoEmbed";
+import Shortcut from "@site/src/components/Shortcut"
 
 # ⚒️ Compiling and Serving your Application
 
-Ultimately, your Angular application will be built for "production". It will just be an HTML file, some CSS, and a few JavaScript files. 
+Ultimately, your Angular application will be built for "production". It will just be an HTML file, some CSS, and a few JavaScript files. We'll do that later.
 
 While we are doing development work, however, we can compile and run our application on our local machine. 
 
@@ -16,11 +17,14 @@ Every time we save a file, the application will be recompiled and those changes 
 
 The `ng serve` command does this work, and starts the web server on your local machine at TCP port 4200, by default. By passing in the `-o` option, you can tell Angular to just open this in your web browser for you.
 
-```shell
+You can run this command from the terminal in your application folder. In Code, you can open an "Integrated" terminal at the bottom of your screen by using the shortcut<Shortcut prefix="Ctrl" suffix="`" hint='Backtick key'/>.
+
+
+```shell title="Serving your Application"
 ng serve -o
 ```
 
-<EmbedVideo id="816579558" />
+<EmbedVideo id="824781049" title="Serving your Application" />
 
 ## The Dev Process
 
