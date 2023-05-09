@@ -33,6 +33,7 @@ What you are seeing in the browser is the compiled application as it is *right n
 
 While we are working on our Angular application, we will leave the `ng serve` process running. It is a *stateful compiler* and a *web server*. It will monitor our source code files for changes, recompile our application, and make it available through a simple web server at `http://localhost:4200`. You just leave this thing running while you are working on your application.
 
-:::tip If you ever need to shut it down (you are at the end of the day, or you want to restart it, etc.) you can click in the terminal window where it is running and hit <Shortcut prefix="Ctrl" suffix="c" />.
+:::tip If you ever need to shut down the development server
+If (you are at the end of the day, or you want to restart it, etc.) you can click in the terminal window where it is running and hit <Shortcut prefix="Ctrl" suffix="c" />.
  to send it an interrupt. We are used to using the <Shortcut prefix="Ctrl" suffix="c" />keyboard combination for copying items to the clipboard, but in a terminal window it sends a signal to tell the process you'd like it to stop.
 :::

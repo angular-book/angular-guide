@@ -1,8 +1,10 @@
 ---
 sidebar_position: 4
+title: Components in Angular
+sidebar_class_name: sidebar-big
 ---
 
-# Angular Components
+
 
 Components are arguably the most important part of Angular, and we are going to spend a good deal of time helping you understand how they work, and what they are for.
 

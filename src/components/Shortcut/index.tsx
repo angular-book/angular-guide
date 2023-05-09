@@ -19,14 +19,13 @@ const shortcutStyles: CSSProperties = {
     paddingLeft: '.5em'
 }
 export default function Shortcut({ prefix, suffix, hint }: ShortcutProps) {
-    
+
     const macPrefix = macKeys[prefix] || 'None';
-    const macContent = `${macPrefix} + ${suffix}`
     const hintContent = hint ? `(${hint})` : '';
     //const macContent = `blah`
     return (
         <span style={shortcutStyles}>
-            Windows/Linux: {kbd(prefix)} + {kbd(suffix)} Mac: {kbd(macPrefix)} + {kbd(suffix)} {hintContent}
+            {kbd(prefix)} + {kbd(suffix)} Mac: {kbd(macPrefix)} + {kbd(suffix)} {hintContent}
         </span>
     )
 }
