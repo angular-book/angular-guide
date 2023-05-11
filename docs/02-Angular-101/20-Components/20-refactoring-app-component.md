@@ -286,3 +286,65 @@ export class NavigationComponent {
 
 }
 ```
+
+Note the inclusion of the CommonModule in the imports. We didn't do that in our HeaderComponent, but it is so, ahem, common that, as you'll see, most components need it. We'll take a look at that soon.
+
+Let's remove our `<nav>` element and it's content from the `./src/app/app.component.html` and move it to the template for this new Navigation component.
+
+```ts title="./src/app/components/navigation.component.ts" showLineNumbers
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-navigation',
+  standalone: true,
+  imports: [CommonModule],
+  template: `
+  //highlight-start
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </nav>
+  //highlight-end
+  `,
+  styles: [
+  ]
+})
+export class NavigationComponent {
+
+}
+```
+
+And then in our `./src/app/app.component.html` add the reference to the selector for our new components:
+
+```html title="/src/app/app.component.html"
+<app-header />
+//highlight-next-line
+<app-navigation />
+<main>
+  <p>Our cool stuff will go here</p>
+</main>
+```
+
+And then import the component in our `./src/app/app.component.html`:
+
+```ts showLineNumbers title="./src/app/app.component.html"
+import { Component } from '@angular/core';
+import { HeaderComponent } from './components/header.component';
+//highlight-next-line
+import { NavigationComponent } from './components/navigation.component';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [HeaderComponent,
+  //highlight-next-line
+    NavigationComponent],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+}
+
+```
