@@ -1,7 +1,11 @@
 ---
 title: Configuring the Angular CLI
-sidebar_class_name: sidebar-lab
+sidebar_class_name: sidebar-details
 ---
+
+:::note Don't run any of these commands
+We will do this together in the next section.
+:::
 
 In the last section, we used the Angular CLI to create a component using the `ng generate component` command (abbreviated to `ng g c`).
 
